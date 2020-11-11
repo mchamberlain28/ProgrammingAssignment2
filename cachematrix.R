@@ -47,6 +47,7 @@ cachSolve <- function(x, ...) {
 #         ## Return a matrix that is the inverse of 'x'
 # }
 
+
 x <- matrix(1:4, nrow = 2, ncol = 2)
 print(x)
 mymatrix <- makeCacheMatrix(x)
